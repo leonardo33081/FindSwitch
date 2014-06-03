@@ -1,0 +1,187 @@
+@import url(../reindeer/styles.css);
+
+
+.footer {
+  border-top:1px solid #D7D7D7;
+  clear:both;
+  color:#666666;
+  font-size:80%;
+
+  padding-left: 0.2em;
+  text-align:left;
+}
+
+.client-link img {
+    width: 45px;
+}
+
+.main-panel {
+  padding-top: 0.0em;
+}
+
+.v-textfield-trace {
+  font-family:monospace;!important
+  overflow-y:visible;
+}
+
+.v-textfield-align-right {
+   text-align: right;
+}
+
+.v-textfield-darkGoldenrod{
+    color: darkGoldenrod !important;
+}
+
+.trace {
+  font-family:monospace;
+  overflow-y:visible; 
+}
+
+.login-page {
+  background: #EEEEEE url(images/gray_bg.jpg) repeat-x scroll 0 0;
+}
+
+.v-progressindicator-invisible {
+  display: none;
+}
+
+.v-verticallayout-terminal {
+  font-family: monospace;
+}
+.v-label-odd {
+  background-color: lightsteelblue;
+}
+.v-label-even {
+  background-color: white;
+}
+.v-label-title {
+  font-weight: bold;
+}
+
+.v-label-bold {
+  font-weight: bold;
+}
+
+.v-label-console {
+  color: #33d033;
+  background-color: black;
+}
+
+.v-label-notFound {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+.syslog {
+    background-color: lightsteelblue;    
+}
+
+.v-panel-content-syslog > div {
+   background: transparent;
+}
+/*
+.v-panel-deco {
+    border-top: 0px;
+    height: 0px;
+} */
+
+.v-label-titleLabel{
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.v-panel-content-dashboard > div {
+    background-color: #333333;
+}
+
+.v-verticallayout-dashboard-vl {
+}
+
+.v-label-dashboard-description-header {
+    font: 30px "lucida grande","lucida sans unicode","lucida sans",arial,sans-serif;
+    color: #EFEFEF;
+}
+.v-label-dashboard-value-header {
+    font: 25px "lucida grande","lucida sans unicode","lucida sans",arial,sans-serif;
+    color: CornflowerBlue;
+}
+
+.v-label-dashboard-description {
+    font: 30px "lucida grande","lucida sans unicode","lucida sans",arial,sans-serif;
+    color: #EFEFEF;
+}
+.v-label-dashboard-value {
+    font: 25px "lucida grande","lucida sans unicode","lucida sans",arial,sans-serif;
+    color: CornflowerBlue;
+}
+.v-caption-nameregistrar {
+  font-size: 1.5em;
+  padding-bottom: 0.4em;
+}
+
+.v-caption-memoryusage {
+  font-size: 1.5em;
+  padding-bottom: 0.4em;
+}
+
+.v-caption-bold {
+  font-weight: bold;
+}
+
+.v-table-cell-content-vmiddle {
+  vertical-align: middle;
+}
+
+.v-table-cell-content-blueSeverity {
+  vertical-align: middle;
+  color:blue;
+}
+
+.v-table-cell-content-orangeSeverity {
+  vertical-align: middle;
+  color:darkgoldenrod;
+}
+
+.v-table-cell-content-redSeverity {
+  vertical-align: middle;
+  color:red;
+}
+
+.v-panel-revision-history {
+  padding-top: 1.5em;
+}
+
+.v-panel-invisible {
+  display: none;
+}
+
+.v-button img {
+    height: 80%;
+}
+
+.v-Notification-custom {
+    background: #fdf3b5 url(icons/closeicon.png) no-repeat right top;
+    border: 3px solid #fee3af;
+    color: #ca9a61;
+}
+
+.v-table-row-status-off {
+  vertical-align: middle;
+}
+.v-table-row-status-ok {
+  vertical-align: middle;
+  background-color: lightgreen;
+}
+.v-table-row-status-warn {
+  vertical-align: middle;
+  background-color: lightgoldenrodyellow;
+}
+.v-table-row-status-error {
+  vertical-align: middle;
+  background-color: lightcoral;
+}
+.v-table-row-status-critical {
+  vertical-align: middle;
+  background-color: red;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="EntityBandeira" >
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>br.com.cabal.entity.BandTlf</class>
+		<class>br.com.cabal.entity.TrxBandCabalSuporte</class>
+		<class>br.com.cabal.entity.TrxBandCabalSuportePK</class>
+		<properties> 
+			<!-- Configuração básica -->
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" /> 
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@192.168.10.231:1521:olhomol" />
+			<property name="javax.persistence.jdbc.user" value="cabal" /> 
+			<property name="javax.persistence.jdbc.password" value="homol456" /> 
+			
+			<!-- Configuração de Log 
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="false" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+            -->
+        </properties>
+	</persistence-unit>
+</persistence>
